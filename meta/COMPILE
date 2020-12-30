@@ -1,0 +1,5 @@
+
+./configure --prefix=/opt/opus --sysconfdir=/opt/opus/conf 
+
+make
+
