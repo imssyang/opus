@@ -1,5 +1,10 @@
 
+cd opus-1.3.1
 ./configure --prefix=/opt/opus --sysconfdir=/opt/opus/conf 
-
 make
+make install
+
+cp opus_compare /opt/opus/bin
+cp .lib/opus_demo /opt/opus/bin
+cp .lib/repacketizer_demo /opt/opus/bin
 
